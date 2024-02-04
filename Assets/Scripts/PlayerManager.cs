@@ -17,7 +17,7 @@ public class PlayerManager : MonoBehaviour
     public static float jumptimeRemaining = 3f;
     public static float doublejumptimeRemaining = 3f;
     public static float coincollecttimeRemaining = 3f;
-    public Vector2 position = new Vector2(-3, 0);
+    public Vector2 position = new Vector2(-5, 5);
     public CinemachineVirtualCamera VirtualCam;
     public Text coinText;
     public GameObject gameOverScreen;
