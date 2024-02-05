@@ -22,7 +22,7 @@ Special thanks to the people who help to create this software.
 * GDTitans - <https://www.youtube.com/@GDTitans>
 * Hooson - <https://www.youtube.com/@hoosontech>
 * Game Maker's Toolkit - <https://www.youtube.com/@GMTK>
-* Unity Mechanic's - <https://www.youtube.com/@UnityMechanics>
+* Unity Mechanics - <https://www.youtube.com/@UnityMechanics>
   
 Without them, this game is not possible.
 
