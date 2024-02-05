@@ -31,3 +31,18 @@ All of the resources used was completely free of use and you can use it in your 
 credit because they are the one who made this art/spritesheet.
 
 ## Directions
+To have this game/software, please follow the flowchart diagram below.
+
+```mermaid
+flowchart LR
+    s1(Download the\nfile as .zip)
+    s2(Locate file &\nExtract it)
+    s3(Under the folder\nOpen the Build Folder)
+    s4(Click the jumprun_v1.2.exe)
+    s5(Happy Playing!)
+
+
+    s1 --> s2 --> s3 --> s4 --> s5
+```
+
+If you are having issues please contact mikerusensei for further assistance.
