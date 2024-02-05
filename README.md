@@ -18,7 +18,7 @@ Without them, this game is not possible.
 
 ## Resources
 Here's the source of the resources used in the game.
-⋅⋅* Itch IO
-* LYASeek - <https://lyaseek.itch.io/>
-* 
+* Itch IO
+...* LYASeek - <https://lyaseek.itch.io/>
+...* 
 ## Directions
