@@ -39,7 +39,8 @@ Here's the source of the resources used in the game.
 All of the resources used was completely free of use and you can use it in your project, just give them the rightful
 credit because they are the one who made this art/spritesheet.
 
-## Directions [To Play The Game]
+## Directions
+### To Play the Game
 To have this game/software, please follow the flowchart diagram below.
 
 ```mermaid
@@ -56,8 +57,8 @@ flowchart LR
 
 If you are having issues please contact mikerusensei for further assistance. Contact is in his profile.
 
-## Directions [To Modify the Game]
-If you want to modify the game, feel free to do it. To modify the game, please refer to the flowcart diagram below.
+### To Modify the Game
+If you want to modify the game, feel free to do it just give credit. To modify the game, please refer to the flowcart diagram below.
 
 ```mermaid
 flowchart LR
