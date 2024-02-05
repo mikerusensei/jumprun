@@ -10,3 +10,4 @@ software, please refer to directions to have this software.
 Fix collision bug in Level 01 and adjust the spawn of character at the start of every level.
 
 
+## Directions
