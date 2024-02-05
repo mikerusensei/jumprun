@@ -7,6 +7,14 @@ software, please refer to [directions](README.md#directions) to have this softwa
 ## Update
 Fix collision bug in Level 01 and adjust the spawn of character at the start of every level.
 
+## Pre-requisites
+### If for playing
+* Windows Operatng System
+
+### If for modifying
+* Windows Operating System
+* Unity Engine [Editor Version - 2021.3.34f1]
+
 ## Special Thanks
 Special thanks to the people who help to create this software.
 
@@ -30,12 +38,12 @@ Here's the source of the resources used in the game.
 All of the resources used was completely free of use and you can use it in your project, just give them the rightful
 credit because they are the one who made this art/spritesheet.
 
-## Directions
+## Directions [To Play The Game]
 To have this game/software, please follow the flowchart diagram below.
 
 ```mermaid
 flowchart LR
-    s1(Download the\nfile as .zip)
+    s1(Download the\nrepository as .zip)
     s2(Locate file &\nExtract it)
     s3(Under the folder\nOpen the Build Folder)
     s4(Click the jumprun_v1.2.exe)
@@ -45,4 +53,27 @@ flowchart LR
     s1 --> s2 --> s3 --> s4 --> s5
 ```
 
-If you are having issues please contact mikerusensei for further assistance.
+If you are having issues please contact mikerusensei for further assistance. Contact is in his profile.
+
+## Directions [To Modify the Game]
+If you want to modify the game, feel free to do it. To modify the game, please refer to the flowcart diagram below.
+
+```mermaid
+flowchart LR
+    s1(Download the\nUnity Engine)
+    s2(Download the\nrepository as .zip)
+    s3(Extract the\nfolder)
+    s4(Open Unity Engine &\n Click the Add)
+    s5(Locate the\nextracted file)
+    s6(Happy Modifying!)
+
+
+    s1 --> s2 --> s3 --> s4 --> s5 --> s6
+```
+
+If you are having issues please contact mikerusensei for further assistance. Contact is in his profile.
+
+## License
+The `jumprun` is an open-sourced software licensed under the [MIT License](http://opensource.org/licenses/MIT).
+
+
