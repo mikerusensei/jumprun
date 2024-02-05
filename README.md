@@ -8,12 +8,13 @@ software, please refer to `directions` to have this software.
 Fix collision bug in Level 01 and adjust the spawn of character at the start of every level.
 
 ## Pre-requisites
-### If for playing
+### For playing
 * Windows Operatng System
 
-### If for modifying
+### For modifying
 * Windows Operating System
-* Unity Engine [Editor Version - 2021.3.34f1]
+* Unity Engine w/ [Editor Version - 2021.3.34f1]
+* Visual Studio 2022 w/ [Unity Package Installed]
 
 ## Special Thanks
 Special thanks to the people who help to create this software.
