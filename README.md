@@ -9,10 +9,10 @@ Fix collision bug in Level 01 and adjust the spawn of character at the start of 
 
 ## Pre-requisites
 ### For playing
-* Windows Operating System
+* Windows Operating System (64-bit architecture)
 
 ### For modifying
-* Windows Operating System
+* Windows Operating System (64-bit architecture)
 * Unity Engine w/ [Editor Version - 2021.3.34f1]
 * Visual Studio 2022 w/ [Unity Package Installed]
 
