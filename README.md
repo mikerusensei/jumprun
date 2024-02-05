@@ -9,7 +9,7 @@ Fix collision bug in Level 01 and adjust the spawn of character at the start of 
 
 ## Pre-requisites
 ### For playing
-* Windows Operatng System
+* Windows Operating System
 
 ### For modifying
 * Windows Operating System
