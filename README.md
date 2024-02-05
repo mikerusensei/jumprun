@@ -9,17 +9,25 @@ Fix collision bug in Level 01 and adjust the spawn of character at the start of 
 
 ## Special Thanks
 Special thanks to the people who help to create this software.
+
 * MoreBBlakeyyy - <https://www.youtube.com/@morebblakeyyy>
 * GDTitans - <https://www.youtube.com/@GDTitans>
 * Hooson - <https://www.youtube.com/@hoosontech>
 * Game Maker's Toolkit - <https://www.youtube.com/@GMTK>
 * Unity Mechanic's - <https://www.youtube.com/@UnityMechanics>
+  
 Without them, this game is not possible.
 
 ## Resources
 Here's the source of the resources used in the game.
-* Itch IO
 
-...* LYASeek - <https://lyaseek.itch.io/>
-...* 
+* Itch IO - <https://itch.io/>
+* LYASeek - <https://lyaseek.itch.io/> | Characters - <https://lyaseek.itch.io/minifvillagers>
+* AxulArt - <https://axulart.itch.io/> | Tile Map - <https://axulart.itch.io/dirt-and-grass-2d-platform-tileset>
+* SeekPNG - <https://www.seekpng.com/> | Coin - <https://www.seekpng.com/png/detail/442-4426319_coin-sprite-sheet-pixel-art.png>
+
+
+All of the resources used was completely free of use and you can use it in your project, just give them the rightful
+credit because they are the one who made this art/spritesheet.
+
 ## Directions
