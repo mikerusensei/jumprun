@@ -40,4 +40,18 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("Level02");
     }
 
+    public void Level_Three()
+    {
+        SceneManager.LoadScene("Level03");
+    }
+
+    public void Level_Four()
+    {
+        SceneManager.LoadScene("Level04");
+    }
+
+    public void Level_Five()
+    {
+        SceneManager.LoadScene("Level05");
+    }
 }

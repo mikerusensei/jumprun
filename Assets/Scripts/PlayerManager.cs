@@ -17,7 +17,7 @@ public class PlayerManager : MonoBehaviour
     public static float jumptimeRemaining = 3f;
     public static float doublejumptimeRemaining = 3f;
     public static float coincollecttimeRemaining = 3f;
-    public Vector2 position = new Vector2(-5, 5);
+    public Vector2 position = new Vector2(-4, 4);
     public CinemachineVirtualCamera VirtualCam;
     public Text coinText;
     public GameObject gameOverScreen;
@@ -86,11 +86,11 @@ public class PlayerManager : MonoBehaviour
             doublejumpTutorialScreen.SetActive(doublejumptutorial);
             doublejumptimeRemaining -= Time.deltaTime;
 
-            if(doublejumptimeRemaining <= 0)
+            if (doublejumptimeRemaining <= 0)
             {
                 doublejumptutorial = false;
                 doublejumpTutorialScreen.SetActive(doublejumptutorial);
-                
+
             }
         }
 
@@ -99,13 +99,13 @@ public class PlayerManager : MonoBehaviour
             coinCollectScreen.SetActive(coincollectutorial);
             coincollecttimeRemaining -= Time.deltaTime;
 
-            if(coincollecttimeRemaining <= 0)
+            if (coincollecttimeRemaining <= 0)
             {
                 coincollectutorial = false;
                 coinCollectScreen.SetActive(coincollectutorial);
             }
         }
-        
+
     }
 
     public void Exit_Button()

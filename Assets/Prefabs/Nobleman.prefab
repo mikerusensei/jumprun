@@ -222,3 +222,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnim: {fileID: 2602404388879290017}
+  gameOverScreen: {fileID: 8358085658408553079, guid: a10b097340db4104c999f0b7d5298cb6, type: 3}
