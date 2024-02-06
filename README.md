@@ -5,7 +5,8 @@ it may cure your boredom while waiting to something. Unfortunately, it is only c
 software, please refer to `directions` to have this software.
 
 ## Update
-Fix collision bug in Level 01 and adjust the spawn of character at the start of every level.
+* Adjust the Level 01 map. To difficult to navigate.
+* Fix collision bug in Level 01 and adjust the spawn of character at the start of every level.
 
 ## Pre-requisites
 ### For playing
