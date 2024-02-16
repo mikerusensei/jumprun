@@ -10,12 +10,12 @@ software, please refer to `directions` to have this software.
 
 ## Pre-requisites
 ### For playing
-* Windows Operating System (64-bit architecture)
+* Windows Operating System `(64-bit architecture)`
 
 ### For modifying
-* Windows Operating System (64-bit architecture)
-* Unity Engine w/ [Editor Version - 2021.3.34f1]
-* Visual Studio 2022 w/ [Unity Package Installed]
+* Windows Operating System `(64-bit architecture)`
+* Unity Engine w/ `[Editor Version - 2021.3.34f1]`
+* Visual Studio 2022 w/ `[Unity Package Installed]`
 
 ## Special Thanks
 Special thanks to the people who help to create this software.
