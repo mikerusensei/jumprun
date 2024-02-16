@@ -22,19 +22,19 @@ public class PlayerCollision : MonoBehaviour
         if (collision.transform.tag == "Jump Tutorial Sign")
         {
             PlayerManager.jumptutorial = true;
-            PlayerManager.jumptimeRemaining = 3;
+            PlayerManager.jumptimeRemaining = 3f;
         }
         
         if (collision.transform.tag == "Double Jump Sign")
         {
             PlayerManager.doublejumptutorial = true;
-            PlayerManager.doublejumptimeRemaining = 3;
+            PlayerManager.doublejumptimeRemaining = 3f;
         }
 
         if (collision.transform.tag == "Collect Coin Sign")
         {
             PlayerManager.coincollectutorial = true;
-            PlayerManager.coincollecttimeRemaining = 3;
+            PlayerManager.coincollecttimeRemaining = 3f;
         }
 
         if (collision.transform.tag == "Flag")

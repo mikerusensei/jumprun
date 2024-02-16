@@ -18,23 +18,6 @@ public class PlayerMovement : MonoBehaviour
     private bool isFacingRight;
     private bool isGrounded;
 
-    //private void Awake()
-    //{
-    //    if (PlayerManager.isAlive)
-    //    {
-    //        playerControl = new PlayerControl();
-    //        playerControl.Enable();
-    //        playerControl.Land.Move.performed += context =>
-    //        {
-    //            direction = context.ReadValue<float>();
-    //        };
-    //        playerControl.Land.Jump.performed += context =>
-    //        {
-    //            Jump();
-    //        };
-    //    }
-        
-    //}
     // Start is called before the first frame update
     void Start()
     {

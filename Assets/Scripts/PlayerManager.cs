@@ -18,33 +18,24 @@ public class PlayerManager : MonoBehaviour
     public static float doublejumptimeRemaining = 3f;
     public static float coincollecttimeRemaining = 3f;
     public Vector2 position = new Vector2(-4, 4);
+    public GameObject tutorialManager;
     public CinemachineVirtualCamera VirtualCam;
     public Text coinText;
     public GameObject gameOverScreen;
     public GameObject winScreen;
-    public GameObject jumpTutorialScreen;
-    public GameObject doublejumpTutorialScreen;
-    public GameObject coinCollectScreen;
     public GameObject door;
     public GameObject[] players;
 
     private bool isDoorDestroyed;
 
-    private void Awake()
+    // Start is called before the first frame update
+    void Start()
     {
         isGameOver = false;
-        jumptutorial = false;
         isWinner = false;
         characterIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
         GameObject player = Instantiate(players[characterIndex], position, Quaternion.identity);
         VirtualCam.m_Follow = player.transform;
-        
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 
     // Update is called once per frame
@@ -67,65 +58,6 @@ public class PlayerManager : MonoBehaviour
         if (isWinner)
         {
             winScreen.SetActive(isWinner);
-        }
-
-        if (jumptutorial)
-        {
-            jumpTutorialScreen.SetActive(true);
-            jumptimeRemaining -= Time.deltaTime;
-
-            if (jumptimeRemaining <= 0)
-            {
-                jumptutorial = false;
-                jumpTutorialScreen.SetActive(jumptutorial);
-            }
-        }
-
-        if (doublejumptutorial)
-        {
-            doublejumpTutorialScreen.SetActive(doublejumptutorial);
-            doublejumptimeRemaining -= Time.deltaTime;
-
-            if (doublejumptimeRemaining <= 0)
-            {
-                doublejumptutorial = false;
-                doublejumpTutorialScreen.SetActive(doublejumptutorial);
-
-            }
-        }
-
-        if (coincollectutorial)
-        {
-            coinCollectScreen.SetActive(coincollectutorial);
-            coincollecttimeRemaining -= Time.deltaTime;
-
-            if (coincollecttimeRemaining <= 0)
-            {
-                coincollectutorial = false;
-                coinCollectScreen.SetActive(coincollectutorial);
-            }
-        }
-
-    }
-
-    public void Exit_Button()
-    {
-        if (jumptutorial)
-        {
-            jumptutorial = false;
-            jumpTutorialScreen.SetActive(jumptutorial);
-        }
-
-        if (doublejumptutorial)
-        {
-            doublejumptutorial = false;
-            doublejumpTutorialScreen.SetActive(doublejumptutorial);
-        }
-
-        if (coincollectutorial)
-        {
-            coincollectutorial = false;
-            coinCollectScreen.SetActive(coincollectutorial);
         }
     }
 }
